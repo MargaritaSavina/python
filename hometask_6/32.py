@@ -12,4 +12,4 @@ for i in range(num):
 print(list_num)
 for i in range(num):
     if  list_num[i] >= left_num and right_num >= list_num[i]:
-        print(list_num.index(list_num[i]),end= " ")
+        print(i,end= " ")
