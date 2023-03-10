@@ -26,7 +26,7 @@ def import_phone():
         print(phone)
         s2 = input('Введите имя или номер для поиска:  ')
         for i in phone:
-            if s2 in phone[i]:
+            if s2.lower() in phone[i]:
                 print(phone[i])
         
         
